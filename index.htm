@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <title>This is 邱奕傑</title>
+    <meta charset="utf-8">
+    <style>
+        h1 {
+            align-self: flex-start;
+            font-family: sans-serif;
+            font-size: 40px;
+            color: rgb(219, 211, 98);
+        }
+        
+        h3 {
+            align-self: flex-start;
+            font-family: sans-serif;
+            font-size: 26px;
+            margin: 5px;
+            color: rgb(186, 221, 105);
+        }
+        
+        div {
+            background-color: rgb(20, 20, 20);
+            padding: 15px;
+            border: 20px;
+        }
+        
+        p {
+            font-size: 14px;
+            font-family: sans-serif;
+            color: white;
+            padding-left: 15px;
+        }
+        
+        li {
+            font-size: 14px;
+            font-family: sans-serif;
+            color: white;
+        }
+        
+        .vertical {
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+        
+        .horizontal {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .horizontal>nav {
+            background-color: rgba(255, 255, 255, 0.301);
+            flex-basis: 150px;
+            margin: 15px;
+            padding: 15px;
+        }
+        
+        .horizontal>div {
+            background-color: black;
+        }
+        
+        .navlink:link {
+            color: rgb(129, 186, 212);
+            text-decoration: none;
+        }
+        
+        .navlink:visited {
+            color: rgb(95, 138, 216);
+            text-decoration: underline;
+        }
+        
+        .navlink:hover {
+            color: rgb(129, 186, 212);
+            text-decoration: underline;
+        }
+        
+        .navlink:active {
+            color: rgb(255, 118, 118);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="vertical">
+    <div style="background-color: black;">
+        <div class="horizontal" style="background-color: rgba(255, 255, 255, 0.205);">
+            <h1>邱奕傑<span style="color: aquamarine;font-style: italic;"> Chiu Yee Chieh </span></h1>
+        </div>
+        <hr>
+    </div>
+    <div class="horizontal" style="background-color: black;">
+        <nav>
+            <h2 style="color: rgb(95, 138, 216);font-size: 26px;font-family: sans-serif;">大綱</h2>
+            <ul style="list-style-type: square;">
+                <li><a href="#ch1" class="navlink">基本資料</a></li>
+                <li><a href="#ch2" class="navlink">自述</a></li>
+                <li><a href="#ch3" class="navlink">作品小集</a></li>
+            </ul>
+        </nav>
+        <div class="vertical">
+            <div>
+                <h3 id="ch1">基本資料</h3>
+                <img alt="大頭" src="BigHead.jpg" style="height:150px;float:inline-end;" title="~（^ｕ^）~">
+                <ul>
+                    <li>年齡： 19</li>
+                    <li>產地： 新竹縣</li>
+                    <li>髮色： 黑偏棕</li>
+                    <li>身高： 168cm</li>
+                    <li>興趣： 鋼琴、作曲</li>
+                    <li>專長： 浪費時間、在期末承受心靈創傷</li>
+                </ul>
+            </div>
+            <p></p>
+            <div>
+                <h3 id="ch2">自述</h3>
+                <p>
+                    大家早，我是邱奕傑，目前是一個怠惰的大一生，自述就亂亂打，助教或老師也就請亂亂看吧。
+                    <br>我其實並非資工系的學生，而是清華學院學士班音樂組管道入學的，但實際上鋼琴彈得很爛，悲哀的是沒有人相信我。
+                    <br>想分流資工系主要是覺得打扣是一件令人開心的事，未來想做自動採譜之類的，不過如果太累了，我也可能會選擇躺著。
+                    <br>我在高中時曾經待過校刊社，對於文學也有一點興趣，但大學中文報告分析楊富閔的短篇小說後，我覺得人生很難。
+                    <br>其實我還會拉手風琴，雖然才學不到一年。每個人都會說手風琴很酷，然後問我為什麼會學這種奇怪的樂器，其實就是因為手風琴很酷，如果哪天能在街頭拉，感覺很帥。
+                    <br>好啦，雖然我看起來很厭世，我實際上其實也很厭世。
+                    <br>大概就這樣隨便的結束吧。
+                    <br>
+                </p>
+            </div>
+            <h><br></h>
+            <div>
+                <h3 id="ch3">作品小集</h3>
+                <ol>
+                    <li style="color:rgb(233, 204, 125);">
+                        星星落下的那個晚上： <br><audio controls style="height: 25px;margin: 5px;"><source src="Star.mp3" type="audio/mpeg"></audio></li>
+                    <li style="color:rgb(233, 204, 125);">
+                        盛宴： <br><audio controls style="height: 25px;margin: 5px;"><source src="banquet.mp3" type="audio/mpeg"></audio></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal" style="background-color: black;align-items: center;align-self: center;">
+        <p>聯絡資訊：</p>
+        <a href="https://www.facebook.com/profile.php?id=100006697899399" target="_blank">
+            <img src="fb.png" style="width: 30px;margin: 2px;" title="FB"></a>
+        <a href="https://twitter.com/YeeeKnot">
+            <img src="tweeter.png" style="width: 25px;margin: 2px;" target="_blank" title="Tweeter"></a>
+        <a href="https://www.youtube.com/channel/UCp2zbS_T36kJ_p86tVla3XQ?view_as=subscriber" target="_blank">
+            <img src="youtube.png" style="height: 50px;width: 40px;margin: 2px;" title="Youtube"></a>
+        <p id="time" style="font-family:'Courier New', Courier, monospace;"></p>
+        <script>
+            var mode = 1;
+
+            function clock() {
+                var t = new Date();
+                var y = (t.getFullYear()).toString();
+                var m = (t.getMonth() + 1).toString();
+                var d = t.getDate().toString();
+                var h = t.getHours().toString();
+                var min = t.getMinutes().toString();
+                var s = t.getSeconds().toString();
+                if (m.valueOf() < 10) m = "0" + m;
+                if (d.valueOf() < 10) d = "0" + d;
+                if (h.valueOf() < 10) h = "0" + h;
+                if (min.valueOf() < 10) min = "0" + min;
+                if (s.valueOf() < 10) s = "0" + s;
+                if (mode == -1) document.getElementById("time").innerText = y + "/" + m + "/" + d + " " + h + ":" + min + ":" + s;
+                else document.getElementById("time").innerText = y + "/" + m + "/" + d + " " + h + " " + min + " " + s;
+                mode *= -1;
+            }
+            var a = setInterval(clock, 500);
+        </script>
+    </div>
+</body>
+
+</html>
